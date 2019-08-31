@@ -1,0 +1,76 @@
+body {
+    margin: 0 15%;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    background: linear-gradient(90deg, rgba(1,21,25,1) 0%, #005e75 100%);
+    color: white;
+    padding: 15px;
+}
+.fotoProfil {
+    align-content: center;
+    flex: 1px;
+    max-width: 200px;
+}
+.fotoProfil img {
+    display: block;
+}
+.styleFoto {
+    max-width: 150px;
+}
+.headerTeks {
+    justify-content: center;
+}
+.nama {
+    font-size: 22px;
+    margin: 5px 0 5px 0;
+    font-weight: bold;
+}
+.personal {
+    font-size: 14px;
+}
+.personal img {
+    max-width: 22px;
+    -webkit-filter: invert(100%);
+}
+.personal a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    padding: 10px;
+    display: flex;
+}
+.about {
+    flex: 1px;
+    max-width: 60%;
+    text-align: justify;
+    margin-right: 10px
+}
+.about h3 {
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+.education h3 {
+    background: linear-gradient(90deg, rgba(1,21,25,1) 0%, #005e75 100%);
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.education {
+    width: 40%;
+    padding-left: 10px
+}
+.school {
+    font-weight: bold
+}
+.sosmed {
+    text-align: right
+}
+.sosmed img {
+    width: 25px;
+    margin: 5px;
+}
